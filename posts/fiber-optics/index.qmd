@@ -5,4 +5,18 @@ date: 2026-01-11
 categories: [Technology, Optics]
 ---
 
-Fiber optics work by trapping light inside a glass core using **Total Internal Reflection**.
+Fiber optics work by trapping light inside a glass core using **Total Internal Reflection**.---
+title: "The Physics of Fiber Optics"
+description: "Understanding how total internal reflection enables high-speed data transmission."
+date: 2026-01-11
+categories: [Technology, Optics]
+image: fiber.jpg
+---
+
+### Introduction
+Fiber optics rely on the principle of **Total Internal Reflection**. When light hits a boundary at an angle larger than the critical angle, it reflects back entirely into the medium.
+
+$$\theta_c = \arcsin\left(\frac{n_2}{n_1}\right)$$
+
+### Why it Matters
+This allows data to travel thousands of miles with minimal signal loss.
