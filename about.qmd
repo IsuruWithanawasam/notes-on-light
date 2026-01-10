@@ -1,0 +1,19 @@
+---
+title: "About Me"
+about:
+  template: jolla
+  image: profile-pic.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:isuruwithanawasam98@example.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/isuru-withanawasam-11b237195/
+    - icon: globe
+      text: Portfolio
+      href: https://isuruwithanawasam.github.io/
+---
+
+Welcome to Stories of Light. I am a researcher passionate about the physics of optics. 
+Feel free to reach out to me for collaborations or inquiries.

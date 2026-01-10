@@ -14,6 +14,13 @@
     "text": "0.1 Total Internal Reflection\nFiber optics work because of a principle called Total Internal Reflection. When light hits the boundary between the core and the cladding at a specific angle, it reflects completely.\n\\[\\theta_c = \\arcsin \\left( \\frac{n_2}{n_1} \\right)\\]\nAs long as the angle of incidence is greater than the critical angle \\(\\theta_c\\), the light stays trapped inside the fiber."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Welcome to Stories of Light. I am a researcher passionate about the physics of optics. Feel free to reach out to me for collaborations or inquiries."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Stories of Light: A Journey Through Optics",
