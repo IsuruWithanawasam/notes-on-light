@@ -1,0 +1,12 @@
+---
+title: "Why is the Sky Blue?"
+description: "Exploring Rayleigh scattering and the physics of the atmosphere."
+date: 2026-01-10
+categories: [Optics, Physics]
+---
+
+The sky appears blue because of a phenomenon called **Rayleigh scattering**. 
+
+$$I = I_0 \frac{8\pi^4\alpha^2}{\lambda^4 R^2} (1 + \cos^2 \theta)$$
+
+As light passes through the atmosphere, shorter wavelengths (blue) scatter more than longer wavelengths (red).

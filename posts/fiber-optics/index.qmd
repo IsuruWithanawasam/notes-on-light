@@ -1,0 +1,8 @@
+---
+title: "The Physics of Fiber Optics"
+description: "How total internal reflection powers the modern internet."
+date: 2026-01-11
+categories: [Technology, Optics]
+---
+
+Fiber optics work by trapping light inside a glass core using **Total Internal Reflection**.

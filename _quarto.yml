@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Notes on Light"
+  search: true
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Archive"
+        menu:
+          - text: "Atmospheric Optics"
+            href: posts/sky-blue/index.qmd
+          - text: "Fiber Optics"
+            href: posts/fiber-optics/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true

@@ -1,0 +1,10 @@
+---
+title: "Latest Research Observations"
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  categories: true
+---
+
+A scientific journal dedicated to the study of optics and light.
