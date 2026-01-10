@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/lenses/index.html",
       "/posts/fiber-optics/index.html",
       "/posts/sky-blue/index.html"
     ]
