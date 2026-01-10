@@ -20,7 +20,7 @@ website:
   page-footer:
     background: light
     left: "© 2026 Stories of Light"
-    center: 
+    right: 
       - icon: envelope
         text: Email
         href: mailto:isuruwithanawasam98@example.com
