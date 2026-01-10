@@ -3,6 +3,7 @@ title: "Why is the Sky Blue?"
 description: "Exploring Rayleigh scattering and the physics of the atmosphere."
 date: 2026-01-10
 categories: [Optics, Physics]
+image: sky.png
 ---
 
 The sky appears blue because of a phenomenon called **Rayleigh scattering**. 
