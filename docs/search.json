@@ -7,11 +7,18 @@
     "text": "The sky appears blue because of a phenomenon called Rayleigh scattering.\n\\[I = I_0 \\frac{8\\pi^4\\alpha^2}{\\lambda^4 R^2} (1 + \\cos^2 \\theta)\\]\nAs light passes through the atmosphere, shorter wavelengths (blue) scatter more than longer wavelengths (red)."
   },
   {
-    "objectID": "posts/fiber-optics/index.html",
-    "href": "posts/fiber-optics/index.html",
-    "title": "The Physics of Fiber Optics",
+    "objectID": "posts/lenses/index.html",
+    "href": "posts/lenses/index.html",
+    "title": "The Science of Lenses",
     "section": "",
-    "text": "0.1 Total Internal Reflection\nFiber optics work because of a principle called Total Internal Reflection. When light hits the boundary between the core and the cladding at a specific angle, it reflects completely.\n\\[\\theta_c = \\arcsin \\left( \\frac{n_2}{n_1} \\right)\\]\nAs long as the angle of incidence is greater than the critical angle \\(\\theta_c\\), the light stays trapped inside the fiber."
+    "text": "Your article content goes here…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stories of Light: A Journey Through Optics",
+    "section": "",
+    "text": "A scientific journal dedicated to the study of optics and light.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nසිංහලෙන් විද්‍යාව\n\n\n\nGeneral\n\n\n\nමෙය සිංහල භාෂාවෙන් විද්‍යා සන්නිවේදනය කිරීමට ගන්නා සුලු ප්‍රයත්නයකි\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Science of Lenses\n\n\n\nOptics\n\nPhysics\n\n\n\nHow refraction shapes the way we see the world.\n\n\n\n\n\n\nJan 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Physics of Fiber Optics\n\n\n\nTechnology\n\nOptics\n\n\n\nHow total internal reflection powers the modern internet.\n\n\n\n\n\n\nJan 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy is the Sky Blue?\n\n\n\nOptics\n\nPhysics\n\n\n\nExploring Rayleigh scattering and the physics of the atmosphere.\n\n\n\n\n\n\nJan 10, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -21,17 +28,17 @@
     "text": "Welcome to Stories of Light. I am a researcher passionate about the physics of optics. Feel free to reach out to me for collaborations or inquiries."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Stories of Light: A Journey Through Optics",
+    "objectID": "posts/fiber-optics/index.html",
+    "href": "posts/fiber-optics/index.html",
+    "title": "The Physics of Fiber Optics",
     "section": "",
-    "text": "A scientific journal dedicated to the study of optics and light.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Science of Lenses\n\n\n\nOptics\n\nPhysics\n\n\n\nHow refraction shapes the way we see the world.\n\n\n\n\n\n\nJan 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Physics of Fiber Optics\n\n\n\nTechnology\n\nOptics\n\n\n\nHow total internal reflection powers the modern internet.\n\n\n\n\n\n\nJan 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy is the Sky Blue?\n\n\n\nOptics\n\nPhysics\n\n\n\nExploring Rayleigh scattering and the physics of the atmosphere.\n\n\n\n\n\n\nJan 10, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "0.1 Total Internal Reflection\nFiber optics work because of a principle called Total Internal Reflection. When light hits the boundary between the core and the cladding at a specific angle, it reflects completely.\n\\[\\theta_c = \\arcsin \\left( \\frac{n_2}{n_1} \\right)\\]\nAs long as the angle of incidence is greater than the critical angle \\(\\theta_c\\), the light stays trapped inside the fiber."
   },
   {
-    "objectID": "posts/lenses/index.html",
-    "href": "posts/lenses/index.html",
-    "title": "The Science of Lenses",
+    "objectID": "posts/sinhala_test/index.html",
+    "href": "posts/sinhala_test/index.html",
+    "title": "සිංහලෙන් විද්‍යාව",
     "section": "",
-    "text": "Your article content goes here…"
+    "text": "මෙය සිංහල භාෂාවෙන් විද්‍යා සන්නිවේදනය කිරීමට ගන්නා සුලු ප්‍රයත්නයකි…"
   }
 ]
