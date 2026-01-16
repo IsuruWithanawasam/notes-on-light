@@ -2,10 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/object_colours/index.html",
       "/posts/sinhala_test/index.html",
       "/posts/lenses/index.html",
       "/posts/fiber-optics/index.html",
+      "/posts/object_colours/index.html",
       "/posts/sky-blue/index.html"
     ]
   }
