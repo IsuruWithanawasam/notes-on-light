@@ -12,10 +12,10 @@ website:
         href: index.qmd
       - text: "Archive"
         menu:
-          - text: "Atmospheric Optics"
-            href: posts/sky-blue/index.qmd
-          - text: "Fiber Optics"
-            href: posts/fiber-optics/index.qmd
+          - text: "Physics"
+            href: index.qmd#category=Physics
+          - text: "Optics"
+            href: index.qmd#category=Optics
   # Add this section below
   page-footer:
     background: light
