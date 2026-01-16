@@ -1,9 +1,0 @@
----
-title: "The Science of Lenses"
-description: "How refraction shapes the way we see the world."
-date: 2026-01-12
-categories: [Optics, Physics]
-image: lens.jpg
----
-
-Your article content goes here...
