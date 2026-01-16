@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-01-16">
-<meta name="description" content="ආලෝකයේ පරාවර්තනය, අවශෝෂණය සහ ව්‍යුහාත්මක වර්ණ පිළිබඳ විද්‍යාත්මක පැහැදිලි කිරීමක්.">
+<meta name="description" content="Exploring light reflection, absorption, and structural coloration.">
 
 <title>අපි අවට ලෝකය වර්ණවත් වන්නේ කෙසේද? – Notes on Light</title>
 <style>
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -126,10 +155,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#මකකද-ම-සද-ආලකය" id="toc-මකකද-ම-සද-ආලකය" class="nav-link active" data-scroll-target="#මකකද-ම-සද-ආලකය"><span class="header-section-number">0.1</span> මොකක්ද මේ සුදු ආලෝකය?</a></li>
-  <li><a href="#වසතවක-අපට-පනනන-කසද" id="toc-වසතවක-අපට-පනනන-කසද" class="nav-link" data-scroll-target="#වසතවක-අපට-පනනන-කසද"><span class="header-section-number">0.2</span> වස්තුවක් අපට පෙනෙන්නේ කෙසේද?</a></li>
-  <li><a href="#පෂඨයකට-වරණයක-ලබනන-කසද" id="toc-පෂඨයකට-වරණයක-ලබනන-කසද" class="nav-link" data-scroll-target="#පෂඨයකට-වරණයක-ලබනන-කසද"><span class="header-section-number">0.3</span> පෘෂ්ඨයකට වර්ණයක් ලැබෙන්නේ කෙසේද?</a></li>
-  <li><a href="#වයහතමක-වරණ-structural-colors" id="toc-වයහතමක-වරණ-structural-colors" class="nav-link" data-scroll-target="#වයහතමක-වරණ-structural-colors"><span class="header-section-number">0.4</span> ව්‍යුහාත්මක වර්ණ (Structural Colors)</a></li>
+  <li><a href="#මකකද-ම-සද-ආලකය" id="toc-මකකද-ම-සද-ආලකය" class="nav-link active" data-scroll-target="#මකකද-ම-සද-ආලකය"><span class="header-section-number">0.1</span> මොකක්ද මේ සුදු ආලෝකය??</a></li>
+  <li><a href="#කහමද-අපට-යම-වසතවක-පනන" id="toc-කහමද-අපට-යම-වසතවක-පනන" class="nav-link" data-scroll-target="#කහමද-අපට-යම-වසතවක-පනන"><span class="header-section-number">0.2</span> කොහොමද අපිට යම් වස්තුවක් පේන්නෙ?</a></li>
+  <li><a href="#කහමද-යම-පෂඨයකට-වරණයක-ලබනන" id="toc-කහමද-යම-පෂඨයකට-වරණයක-ලබනන" class="nav-link" data-scroll-target="#කහමද-යම-පෂඨයකට-වරණයක-ලබනන"><span class="header-section-number">0.3</span> කොහොමද යම් පෘෂ්ඨයකට වර්ණයක් ලැබෙන්නෙ?</a></li>
+  <li><a href="#ඇය-සමහර-පෂඨ-දලසනන" id="toc-ඇය-සමහර-පෂඨ-දලසනන" class="nav-link" data-scroll-target="#ඇය-සමහර-පෂඨ-දලසනන"><span class="header-section-number">0.4</span> ඇයි සමහර පෘෂ්ඨ දිලිසෙන්නෙ?</a></li>
+  <li><a href="#අපට-පනන-වරණ-වලට-හතව-ම-selective-absorption-වතරමද" id="toc-අපට-පනන-වරණ-වලට-හතව-ම-selective-absorption-වතරමද" class="nav-link" data-scroll-target="#අපට-පනන-වරණ-වලට-හතව-ම-selective-absorption-වතරමද"><span class="header-section-number">0.5</span> අපිට පෙනෙන වර්ණ වලට හේතුව මේ Selective absorption විතරමද??</a></li>
   </ul>
 </nav>
     </div>
@@ -140,15 +170,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">අපි අවට ලෝකය වර්ණවත් වන්නේ කෙසේද?</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Physics</div>
     <div class="quarto-category">Optics</div>
-    <div class="quarto-category">Nature</div>
+    <div class="quarto-category">Physics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    ආලෝකයේ පරාවර්තනය, අවශෝෂණය සහ ව්‍යුහාත්මක වර්ණ පිළිබඳ විද්‍යාත්මක පැහැදිලි කිරීමක්.
+    Exploring light reflection, absorption, and structural coloration.
   </div>
 </div>
 
@@ -171,41 +200,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>අපි අවට පරිසරය තුළ විවිධාකාර වර්ණවලින් හැඩගැන්වුණු වස්තූන් දකිනවා. සමහර පෘෂ්ඨ දිලිසෙන අතර සමහර පෘෂ්ඨ එසේ නොවේ. තවත් සමහර පෘෂ්ඨ දෙස බලන දිශාව අනුව ඒවායේ වර්ණය වෙනස් වේ. මෙයට හේතුව විද්‍යාත්මකව විමසා බලමු.</p>
+<p>අපි අවට පරිසරය තුල විවිධාකාර වර්ණ වලින් හැඩගැන්වුනු වස්තූන් අපි දකිනවා. සමහර පෘෂ්ඨ දිලිසෙනවා. සමහර පෘෂ්ඨ එහෙම නැහැ. සමහර පෘෂ්ඨ දිහා වෙනස් දිශාවන් වලින් බලද්දි වර්ණය වෙනස් වෙනවා. මොකක්ද මේකට හේතුව කියලා ටිකක් හොයලා බලමු.</p>
 <section id="මකකද-ම-සද-ආලකය" class="level3" data-number="0.1">
-<h3 data-number="0.1" class="anchored" data-anchor-id="මකකද-ම-සද-ආලකය"><span class="header-section-number">0.1</span> මොකක්ද මේ සුදු ආලෝකය?</h3>
-<p>අපට ස්වාභාවිකව ආලෝකය ලැබෙන්නේ සූර්යයාගෙනි. සූර්යාලෝකය ප්‍රිස්මයක් හරහා යැවූ විට එය වර්ණවලට වෙන් වේ. මෙය සූර්ය ආලෝකයේ වර්ණාවලියයි. අප සාමාන්‍යයෙන් වර්ණ හතක් ගැන කතා කළද, ඇත්ත වශයෙන්ම මෙහි පවතින්නේ <strong>සන්තතික (Continuous)</strong> වර්ණාවලියකි.</p>
-<p>එනම්, අපට නොපෙනෙන අධෝරක්ත (<strong>IR</strong>), දෘශ්‍ය ආලෝකය (<strong>Visible light</strong>) සහ පාරජම්බුල කිරණ (<strong>UV</strong>) යන පරාසයන් තුළ පවතින විවිධ තරංග ආයාමයන්ගෙන් යුත් ෆෝටෝන සමූහයක් අප “සුදු ආලෝකය” ලෙස දකිනු ලබයි. සරලවම කිවහොත්, සුදු ආලෝකය යනු වර්ණ රාශියක එකතුවකි.</p>
+<h3 data-number="0.1" class="anchored" data-anchor-id="මකකද-ම-සද-ආලකය"><span class="header-section-number">0.1</span> මොකක්ද මේ සුදු ආලෝකය??</h3>
+<p>අපි දන්නවා අපිට ස්වභාවිකව ආලෝකය ලැබැන්නෙ සූර්‍යයාගෙන්. මේ සූර්‍යයාගෙන් ලැබෙන ආලෝකය ප්‍රිස්මයක් හරහා යැව්වම අපිට ලැබෙනවා සූර්‍ය ආලෝකයේ වර්ණාවලිය. අපි සාමාන්‍යයෙන් කියන්නෙ වර්ණ හතක් කියලා. ඇත්තටම මෙතන තියෙන්නෙ <strong>සන්තතික (Continuous)</strong> වර්ණාවලියක්. ඒ කියන්නෙ අපිට නොපෙනෙන අධෝරක්ත (<strong>IR</strong>), දෘෂ්‍ය ආලෝකය (<strong>Visible light</strong>) සහ පාරජම්බුල කිරණ (<strong>UV</strong>) කියන පරාස තුන ඇතුලෙ පවතින විවිධ තරංග ආයාම ගොඩකින් සමන්විත වෙච්ච ෆෝටෝන වල පොකුරක් තමයි අපි සුදු ආලෝකය විදියට දකින්නෙ. ඒ කියන්නෙ ඇත්තටම නිකං සරල වචනයෙන් කියනවනම් පාට ගොඩක එකතුවක්.</p>
 </section>
-<section id="වසතවක-අපට-පනනන-කසද" class="level3" data-number="0.2">
-<h3 data-number="0.2" class="anchored" data-anchor-id="වසතවක-අපට-පනනන-කසද"><span class="header-section-number">0.2</span> වස්තුවක් අපට පෙනෙන්නේ කෙසේද?</h3>
-<p>අඳුරු කාමරයකදී අපට කිසිවක් නොපෙනෙන්නේ ඇයි? යමක් දැකීමට ආලෝක ප්‍රභවයක් අවශ්‍ය වන්නේ ඇයි?</p>
-<p>අපට යමක් පෙනීමට නම්, එම වස්තුවේ සිට අපේ ඇසට ආලෝක කිරණ (ෆෝටෝන) පැමිණිය යුතුය. සෑම වස්තුවක්ම ස්වයංව ආලෝකය නිකුත් නොකරයි. එහිදී සිදුවන්නේ ආලෝක ප්‍රභවයකින් වස්තුව මතට වැටෙන ආලෝකය අපේ ඇස වෙත පරාවර්තනය වීමයි. අඳුරේදී ආලෝක ප්‍රභවයක් නොමැති නිසා පරාවර්තනය වීමට ආලෝකයක් නොමැත. එබැවින් අපට වස්තූන් නොපෙනේ.</p>
+<section id="කහමද-අපට-යම-වසතවක-පනන" class="level3" data-number="0.2">
+<h3 data-number="0.2" class="anchored" data-anchor-id="කහමද-අපට-යම-වසතවක-පනන"><span class="header-section-number">0.2</span> කොහොමද අපිට යම් වස්තුවක් පේන්නෙ?</h3>
+<p>කලුවර වෙලාවකට ඇයි අපිට අපි අවට කිසි දෙයක් පේන්නෙ නැත්තෙ? ඇයි අපිට දෙයක් පේන්න නම් මොකක් හරි ආලෝක ප්‍රභවයක් අවශ්‍යය වෙන්නෙ? අපි මේ ප්‍රශ්න ගැන කතාකරමු.</p>
+<p>අපිට යමක් පේන්න නම්, ඒ වස්තුවෙන් අපේ ඇහැට ආලෝක කිරණක් (ෆෝටෝන ටිකක්) එන්න ඕනෙ. හැබැයි හැම වස්තුවම ආලෝකය නිකුත් කරන්නෙ නැහැ. මෙතනදි වෙන්නෙ ආලෝක ප්‍රභවයකින් අදාල වස්තුවට වැටෙන ආලෝකය අපේ ඇහැ වෙත පරාවර්තනය කරන එක. එතකොට තමයි අපිට ඒ වස්තුව පේන්නෙ. කලුවරේදි කිසිම ආලෝක ප්‍රභවයක් නෑ. ඒ කියන්නෙ අර වස්තුව මතට කිසිම ආලෝකයක් වැටෙන්නෙ නැහැ. එතකොට අපේ ඇහැට නැවත පරාවර්තනය වීමක් නැහැ.</p>
 </section>
-<section id="පෂඨයකට-වරණයක-ලබනන-කසද" class="level3" data-number="0.3">
-<h3 data-number="0.3" class="anchored" data-anchor-id="පෂඨයකට-වරණයක-ලබනන-කසද"><span class="header-section-number">0.3</span> පෘෂ්ඨයකට වර්ණයක් ලැබෙන්නේ කෙසේද?</h3>
-<p>යම් පෘෂ්ඨයක් මතට ආලෝකය (ෆෝටෝන) වැටුණු විට ප්‍රධාන ක්‍රියාවලීන් දෙකක් සිදුවිය හැකිය:</p>
-<ol type="1">
-<li><strong>අවශෝෂණය (Absorption):</strong> පෘෂ්ඨය මගින් ෆෝටෝන උරාගැනීම.</li>
-<li><strong>පරාවර්තනය (Reflection):</strong> පෘෂ්ඨය මගින් ෆෝටෝන ආපසු හැරවීම.</li>
-</ol>
-<p>පරාවර්තනය ප්‍රධාන ආකාර දෙකකි:</p>
-<ul>
-<li><strong>නියමිත පරාවර්තනය (Specular Reflection):</strong> පෘෂ්ඨයට වැටෙන ආලෝකය කෙළින්ම පරාවර්තනය වීමයි. ඉතා සුමට දිලිසෙන පෘෂ්ඨවල මෙය දැකිය හැකිය.</li>
-<li><strong>විසරිත පරාවර්තනය (Diffuse Reflection):</strong> මෙහිදී ආලෝකය වස්තුව තුළට ඉතා කුඩා දුරක් ගමන් කර, විසිරී නැවත පිටතට පැමිණේ. වස්තූන්ගේ වර්ණය තීරණය වන්නේ මෙලෙස පිටතට එන ආලෝකයෙනි.</li>
-</ul>
-<p>වස්තුවක රසායනික සංයුතිය අනුව එය සමහර වර්ණ අවශෝෂණය කර තවත් සමහර වර්ණ පරාවර්තනය කරයි. මෙයට <strong>වරණීය අවශෝෂණය (Selective Absorption)</strong> යැයි කියනු ලැබේ. අපේ ඇසට පෙනෙන්නේ වස්තුව විසින් අවශෝෂණය නොකර පරාවර්තනය කරන වර්ණයයි.</p>
-<blockquote class="blockquote">
-<p><strong>උදාහරණයක්:</strong> ගසක පත්‍රයක් මතට සුදු ආලෝකය වැටුණු විට, එහි ඇති ක්ලෝරොෆිල් මගින් කොළ වර්ණය හැර අනෙක් සියලු වර්ණ අවශෝෂණය කරයි. පරාවර්තනය වන කොළ පැහැති ෆෝටෝන අපේ ඇසට ලැබෙන නිසා පත්‍රය කොළ පැහැයෙන් පෙනේ.</p>
-</blockquote>
+<section id="කහමද-යම-පෂඨයකට-වරණයක-ලබනන" class="level3" data-number="0.3">
+<h3 data-number="0.3" class="anchored" data-anchor-id="කහමද-යම-පෂඨයකට-වරණයක-ලබනන"><span class="header-section-number">0.3</span> කොහොමද යම් පෘෂ්ඨයකට වර්ණයක් ලැබෙන්නෙ?</h3>
+<p>යම් පෘෂ්ඨයක් මතට ෆෝටෝනයක් වැටුනම දේවල් දෙකක් වෙන්න පුලුවන්. එකක් ඒ ෆෝටෝන අදාල පෘෂ්ඨය මගින් <strong>අවශෝෂණය (Absorption)</strong> කරගැනීම. අනික ඒ ෆෝටෝනය අදාල පෘෂ්ඨය මගින් <strong>පරාවර්තනය (Reflection)</strong> කිරීම. දැන් බලමු කොහොමද මේක වෙන්නෙ කියලා.</p>
+<p>පරාවර්තනය එහෙම නැත්නම් reflection වල කොටස් දෙකක් තියෙනවා: <strong>Specular reflection</strong> සහ <strong>Diffuse reflection</strong>. මෙතන specular reflection වලදි වෙන්නෙ පෘෂ්ඨට වැටෙන ආලෝකය කෙලින්ම පරාවර්තනය කිරීම. ගොඩක් සුමට පෘෂ්ඨ වල අපිට මේක දකින්න පුලුවන්.</p>
+<p>Diffuse Reflection කියන දේ තමයි වැදගත්ම කාරණාව වෙන්නෙ. මෙතනදි පෘෂ්ඨයට වැටෙන ආලෝකය අදාල පෘෂ්ඨය (වස්තුව) තුලට ඉතාම කුඩා දුරක් ගමන් කරනවා. මේ ගමන් කරන දුර වර්ණය (ෆෝටෝනයේ ශක්තිය) අනුව වෙනස් වෙනවා. ඒ වගේම, නැවත නැවත හැරී ගමන් කරලා පෘෂ්ඨයෙන් ඉවතට පිටවෙනවා. මේකට තමයි අපි diffuse reflection කියන්නෙ.</p>
+<p>දැන් මේ ගමන් කරන මාර්ගය ඇතුලෙ වස්තුව විසින් සමහර වර්ණ වලට අදාල සියල්ලම අවශෝෂණය කරගන්නවා, සමහර වර්ණ වලට අදාල ෆෝටෝන වලින් කොටසක් අවශෝෂණය කරගන්නවා. සරලවම මේ කාරණාව පෘෂ්ඨය හැදිලා තියෙන ද්‍රව්‍යයෙ රසායනික සංයුතිය මත පදනම් වෙනවා. මේකට අපි කියන්නෙ <strong>වරණීය අවශෝෂණය (Selective absorption)</strong> කියලා.</p>
+<p>දැන් පෘෂ්ඨය විසින් අවශෝෂණය කරගත්තු නැති ෆෝටෝන තමයි අපේ ඇහැ වෙත එන්නෙ. සරලව අපේ ඇහැ අඳුනගන්නෙ ඒ ඇහැ වෙත එන ෆෝටෝන වලට අදාල වර්ණ. ඒ කියන්නෙ යම්කිසි වස්තුවකට වර්ණයක් ලැබෙන්නෙ ඒ වස්තුව විසින් පරාවර්තනය කරන ආලෝකයට අදාල වර්ණ වලින්. සරලවම උදාහරණයක් විදියට ගහක කොළයක් ගත්තම, සූර්‍යයාගෙන් වැටෙන සුදු ආලෝකයෙන් කොළ වර්ණයට අදාල ෆෝටෝන හැරුණ කොට අනික් වර්ණ වලට අදාල ෆෝටෝන කොළය විසින් (Chlorophyll විසින්) අවශෝෂණය කරගන්නවා.</p>
 </section>
-<section id="වයහතමක-වරණ-structural-colors" class="level3" data-number="0.4">
-<h3 data-number="0.4" class="anchored" data-anchor-id="වයහතමක-වරණ-structural-colors"><span class="header-section-number">0.4</span> ව්‍යුහාත්මක වර්ණ (Structural Colors)</h3>
-<p>වර්ණය ලැබෙන්නේ වරණීය අවශෝෂණයෙන් පමණක් නොවේ. සමහර සතුන්ගේ (උදා: මොණර පිල්, සමනල තටු) පෘෂ්ඨවල නැනෝ පරිමාණයේ විශේෂ ව්‍යුහයන් පවතී. මේවා <strong>තරංග ආයාම තේරීම් පද්ධති (Wavelength Selectors)</strong> ලෙස ක්‍රියා කරයි. මෙම ව්‍යුහයන් මත වැටෙන ආලෝකය පරාවර්තනය වීමේදී නිරෝධනය (<strong>Interference</strong>) වීම සිදු වේ.</p>
-<p>මෙය <strong>බ්‍රැග් නියමය (Bragg’s Law)</strong> මගින් පැහැදිලි කළ හැකිය:</p>
-<p>[ 2 d = m ]</p>
-<p>මෙහිදී අප බලන කෝණය (()) වෙනස් වන විට, නිරෝධනය වී පිටතට එන තරංග ආයාමය (()) වෙනස් වේ. සමනල තටු දෙස බලන දිශාව අනුව වර්ණය වෙනස් වී පෙනෙන්නේ මේ නිසාය.</p>
-<p>අප අවට ඇති පරිසරය තුළ මෙවැනි අපූරු භෞතික විද්‍යාත්මක සිදුවීම් රාශියක් සැඟවී පවතී.</p>
+<section id="ඇය-සමහර-පෂඨ-දලසනන" class="level3" data-number="0.4">
+<h3 data-number="0.4" class="anchored" data-anchor-id="ඇය-සමහර-පෂඨ-දලසනන"><span class="header-section-number">0.4</span> ඇයි සමහර පෘෂ්ඨ දිලිසෙන්නෙ?</h3>
+<p>මේකට හේතුව කලින් කතා කරපු <strong>Specular reflection</strong>.</p>
+</section>
+<section id="අපට-පනන-වරණ-වලට-හතව-ම-selective-absorption-වතරමද" class="level3" data-number="0.5">
+<h3 data-number="0.5" class="anchored" data-anchor-id="අපට-පනන-වරණ-වලට-හතව-ම-selective-absorption-වතරමද"><span class="header-section-number">0.5</span> අපිට පෙනෙන වර්ණ වලට හේතුව මේ Selective absorption විතරමද??</h3>
+<p>සරලවම පිලිතුර නැහැ. මෙතනදි සොබාදහම විසින් නිර්මාණය කරපු හරි අපූරු ඉංජිනේරු නිර්මාණ ටිකක් බලාගන්න පුලුවන්. සමහර පෘෂ්ඨ වල පෘෂ්ඨ ස්වභාවය හරි විශේෂයි. උදාහරණයක් විදියට මොණර පිලක්, සමනලයෙක්ගෙ තටුවක් ගත්තොත් මේ පෘෂ්ඨ වල නැනෝ පරිමාණයේ විශේෂ ආකෘතිමය ස්වභාවයන් දකින්න පුලුවන්. මේවා වැඩකරනවා <strong>Wavelength selectors</strong> විදියට. ඒ කියන්නෙ ඒ ආකෘති වලින් සමහර වර්ණ තෝරලා reflect කරනවා. මේවා වැඩකරන්නෙ අපි Physics වල කතාකරන <strong>Multilayer Bragg reflectors</strong> විදියට.</p>
+<p>සමනලයින්ගෙ තටු වල <strong>Periodic nanostructures</strong> තියෙනවා. ඒ කියන්නෙ එකම රටාවකට පෙලගැස්වුන ස්ථර වගේ. මේ ස්ථර වලට ආලෝකය වැටුනම පරාවර්තනය වෙන ආලෝකය <strong>Interference (නිරෝධනය)</strong> වීමක් සිද්ධ වෙනවා. අපි මේකට කියන්නෙ reflected interference කියලා. සරලව අපිට මේක <strong>Bragg condition</strong> වලින් පෙන්නන්න පුලුවන්:</p>
+<p><span class="math display">\[n\lambda = 2d \sin \theta\]</span></p>
+<p>අපි බලන කෝණය (<span class="math inline">\(\theta\)</span>) වෙනස් වෙද්දි වර්ණය වෙනස් වෙන්නෙ මේ නිසා. අපි අවට තියෙන අපිට නිතර මුණගැහෙන පරිසරය ඇතුලෙ අපි නොදකින අපි නොහිතන කාරණා සෑහෙන්න තියෙනවා. තවත් කාරණා ඉදිරියට.</p>
 
 
 </section>
