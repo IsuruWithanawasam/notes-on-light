@@ -1,6 +1,6 @@
 ---
 title: "අපි අවට ලෝකය වර්ණවත් වන්නේ කෙසේද?"
-description: "*ආලෝකයේ පරාවර්තනය, අවශෝෂණය සහ ව්‍යුහාත්මක වර්ණකරණය විමසා බැලීම"
+description: ""
 date: 2026-01-16
 categories: [Optics, Physics, Nature]
 image: color_physics.png
