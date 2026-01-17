@@ -1,5 +1,5 @@
 ---
-title: "Stories of Light: A Journey Through Optics"
+title: "Notes on Light: A Journey Through Optics"
 listing:
   contents: posts
   type: grid

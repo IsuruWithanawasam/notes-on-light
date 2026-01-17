@@ -19,7 +19,7 @@ website:
   # Add this section below
   page-footer:
     background: light
-    left: "© 2026 Stories of Light"
+    left: "© 2026 Notes on Light"
     right: 
       - icon: envelope
         text: Email
