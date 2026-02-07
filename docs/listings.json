@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/human_vision/index.html",
       "/posts/colours_experiment/index.html",
       "/posts/object_colours/index.html"
     ]

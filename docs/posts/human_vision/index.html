@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-02-07">
 
-<title>Notes on Light: A Journey Through Optics – Notes on Light</title>
+<title>🌈 අපි අවට ලෝකය වර්ණවත් වන්නේ කොහොමද? – Notes on Light</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ef32bf7774ebc12c73c4d08f1351a0b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ef32bf7774ebc12c73c4d08f1351a0b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,65 +69,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -139,7 +80,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Notes on Light</span>
     </a>
   </div>
@@ -150,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -159,11 +100,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-archive">    
         <li>
-    <a class="dropdown-item" href="./index.html#category=Physics">
+    <a class="dropdown-item" href="../../index.html#category=Physics">
  <span class="dropdown-text">Physics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html#category=Optics">
+    <a class="dropdown-item" href="../../index.html#category=Optics">
  <span class="dropdown-text">Optics</span></a>
   </li>  
     </ul>
@@ -180,21 +121,40 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QmlvbG9neQ==">Biology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhwZXJpbWVudHM=">Experiments <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmF0dXJl">Nature <span class="quarto-category-count">(2)</span></div><div class="category" data-category="T3B0aWNz">Optics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGh5c2ljcw==">Physics <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ඇස-නමත-කමරව" id="toc-ඇස-නමත-කමරව" class="nav-link active" data-scroll-target="#ඇස-නමත-කමරව"><span class="header-section-number">0.1</span> ඇස නමැති කැමරාව 📷</a></li>
+  <li><a href="#එතකට-වනස-මනසස-දනනක-එකම-වසතවක-දකනන-එකම-වරණ-වලනද" id="toc-එතකට-වනස-මනසස-දනනක-එකම-වසතවක-දකනන-එකම-වරණ-වලනද" class="nav-link" data-scroll-target="#එතකට-වනස-මනසස-දනනක-එකම-වසතවක-දකනන-එකම-වරණ-වලනද"><span class="header-section-number">0.2</span> එතකොට වෙනස් මිනිස්සු දෙන්නෙක් එකම වස්තුවක් දකින්නෙ එකම වර්ණ වලින්ද?</a></li>
+  <li><a href="#හම-සතකටම-පන-වරණ-එක-සමනද" id="toc-හම-සතකටම-පන-වරණ-එක-සමනද" class="nav-link" data-scroll-target="#හම-සතකටම-පන-වරණ-එක-සමනද"><span class="header-section-number">0.3</span> හැම සතෙක්ටම පේන වර්ණ එක සමානද?</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notes on Light: A Journey Through Optics</h1>
-</div>
+<h1 class="title">🌈 අපි අවට ලෝකය වර්ණවත් වන්නේ කොහොමද?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Optics</div>
+    <div class="quarto-category">Physics</div>
+    <div class="quarto-category">Biology</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 7, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -204,117 +164,40 @@ window.Quarto = {
 </header>
 
 
-<p>A scientific journal dedicated to the study of optics and light.</p>
+<p>කලින් ලිපි දෙකේදිම මම කතා කරේ කොහොමද වස්තුවකට වර්ණයක් හම්බෙන්නෙ කියලා. එහෙනම් අද බලමු සරලව කොහොමද අපේ ඇහැ වර්ණ අඳුනගන්නෙ කියලා. ඒ වගේම එකම වස්තුව එකම වර්ණ වලින්ද හැමෝටම පේන්නෙ කියලා බලමු.</p>
+<section id="ඇස-නමත-කමරව" class="level3" data-number="0.1">
+<h3 data-number="0.1" class="anchored" data-anchor-id="ඇස-නමත-කමරව"><span class="header-section-number">0.1</span> ඇස නමැති කැමරාව 📷</h3>
+<p>අපේ ඇහැ කියන්නෙ සරල කැමරාවක් කියලා හිතමු. මේ කැමරාවෙ තියෙනවා විවරයක් (Aperture). අපි මේකට කියනවා කනීනිකාව කියලා. මෙයා තමයි අපේ ඇහැට එන ආලෝක ප්‍රමාණය පාලනය කරන්නෙ.</p>
+<p>ඊලඟට තියෙනවා කාචයක්. මේ කාචයට පුලුවන් තමන්ගෙ වක්‍රතාවය වෙනස් කරලා නාභීය දුර වෙනස් කරන්න.</p>
+<p>ඊලඟට තියෙනව දෘෂ්ටි පටලය (retina). මේක හරියට පොඩි සංවේදක තිරයක් කියලා කියමුකො.</p>
+<p>(ඇස මීට වඩා බොහොම සංකීර්ණ අවයවයක්. මං මේ සරලම ආකෘතිය තමා ලියලා තියෙන්නෙ.)</p>
+<p>අපි මොකක් හරි වස්තුවක් දිහා බලනකොට ඒ වස්තුවෙ ප්‍රතිබිම්බයක් මේ retina එක මත කාචය මගින් ඇති කරනවා.</p>
+<p>දැන් මේ ඇති කරන ප්‍රතිබිම්බය සංවේදනය කරගන්න මේ retina එක මත තියෙනවා ජාති දෙකක සංවේදක. අපි මේවට කියනවා යෂ්ටි සහ කේතු සෛල කියලා (rods &amp; cones). මේවා ඇවිල්ලා photoreceptor cells. ඒ කියන්නෙ මේ ඇවිල්ලා ආලෝකයට සංවේදී සෛල.</p>
+<p>යෂ්ටි සෛල වලින් වර්ණ ග්‍රහණය කරගන්නෙ නැහැ. ඒ වගේම මේවා සංවේදි ඉතා අඩු ආලෝක තත්ව වලට.</p>
+<p>අද අපේ කථානායකයා වෙන්නෙ කේතු සෛල නැත්නම් cone receptors. මිනිස් ඇස තුල මෙයාලගෙ වර්ග තුනක receptors තියෙනවා L,M,S කියලා (Long-wavelenght, Medium-wavelenght, short-wavelengt). මේ තුන්දෙනා සංවේදනය කරන්නෙ දෘෂ්‍ය වර්ණාවලියෙ පරාස තුනකින් එන ආලෝකය. සරලවම මේ තුන අඳුනගන්නෙ රතු, කොළ සහ නිල් වර්ණ පරාස. තනි වර්ණයක් නෙවෙයි පරාසයක්. පහල තියෙන රූපයෙන් පේන්නෙ මේ සංවේදක තුනේ response bands.</p>
+<p>අපිට පේනවා මේ bands තුන වෙන වෙනම නෙවෙයි තියෙන්නෙ. එක මත එක පිහිටනවා. එහෙම නැත්නම් overlap වෙනවා. ඒ වගේම bands තුනේම responsivity එක wavelength එකත් එක්ක වෙනස් වෙනවා. Bands තුනට වෙන වෙනම highest responsibility එකක් දෙන peak wavelengths තියෙනවා. අපි මේ හින්දා සාමාන්‍යයෙන් කියන්නෙ මිනිසාට සාමාන්‍යයෙන් පේන්නෙ Red, Green, Blue bands කියලා.</p>
+<p>මේ ඇවිල්ලා සංවේදන කලාප. Cone receptors වලට අඳුනගන්න බැහැ තමන්ට මේ ලැබෙන light signal එක මොන wavelength එකෙන්ද කියලා. ඒ වෙනුවට එයාට ලැබෙන්නෙ තමන්ගෙ response curve එකට් අදාලව Intensity value එකක්.</p>
+<p>අපි සරල උදාහරණයක් ගමු. හිතන්න අපි බලනවා කහ පාට මලක් දිහා. එතකොට ඒකෙ ප්‍රතිබිම්බය මත එක ලක්ෂ්‍යයක intensity response එක ගැන හිතමු.</p>
+<p>මල කහ පාටයි. ආසන්නව 580 nm වගේනෙ කහ පාට. L,M,S receptors තුනේ response බැලුවොතින්, L curve එකට මේ හරියෙ හොඳ reaponse value එකක් තියෙනවා, M වලටත් එහෙමයි. හැබැයි S receptors වල response එකක් නැහැ. දැං එතකොට L, M, S කියන තුනට ලැබුනු ආලෝකයට හරියන්න අගයන් තුනල් තියෙනවා.</p>
+<p>මේ විදියට තමයි මේ cone receptors වැඩ කරන්නෙ. එයාලා ගන්නෙ ලැබෙන ආලෝකයට අදාලව තමන්ට ලැබෙන response එක.</p>
+<p>මෙතනින් එහාට වැඩේ බාරගන්නෙ ganglion cells සහ LGN nurons. මෙයාලා තමයි L,M,S Cone receptors වලින් එන raw outputs mix කරලා ප්‍රධාන channel තුනක් විදියට signal එක process කරන්න ගන්නෙ. මෙතනින් එහාට වැඩේ තරමක් සංකීර්ණ කතාවක්.</p>
+<p>හරි… සරලව අපේ ඇහේ තියෙන සංවේදක කරන්නෙ නිෂ්චිත වර්ණයක් අඳුනාගැනිම වෙනුවට ඒ වර්ණයට අදාලව තමන්ගෙ සංවේදන කලාප වල අගයන් ටිකක් සංවේදනය කරන එක.</p>
+</section>
+<section id="එතකට-වනස-මනසස-දනනක-එකම-වසතවක-දකනන-එකම-වරණ-වලනද" class="level3" data-number="0.2">
+<h3 data-number="0.2" class="anchored" data-anchor-id="එතකට-වනස-මනසස-දනනක-එකම-වසතවක-දකනන-එකම-වරණ-වලනද"><span class="header-section-number">0.2</span> එතකොට වෙනස් මිනිස්සු දෙන්නෙක් එකම වස්තුවක් දකින්නෙ එකම වර්ණ වලින්ද?</h3>
+<p>ආසන්න වශයෙන් ඔව්. හැබැයි 100% දකින වර්ණ හරියටම සමාන නැහැ කියලා බොහොමයක් පර්‍යෙෂණ පත්‍රිකා කියනවා. මොකද හැමෝගෙම cone receptor වල responsivity සර්වසම නැති හින්දා.</p>
+</section>
+<section id="හම-සතකටම-පන-වරණ-එක-සමනද" class="level3" data-number="0.3">
+<h3 data-number="0.3" class="anchored" data-anchor-id="හම-සතකටම-පන-වරණ-එක-සමනද"><span class="header-section-number">0.3</span> හැම සතෙක්ටම පේන වර්ණ එක සමානද?</h3>
+<p>නැහැ. සත්ව වර්ගයෙන් වර්ගයට මේ responsivity curvea වෙනස් වෙනවා. අපිට bands 3ක් detect වුනාට ගොඩක් ක්ෂීරපායින්ට තියෙන්නෙ වර්ග දෙකක cone receptors විතරයි (Dichromats). උදාහරණයකට බල්ලන්ට තියෙන්නෙ S &amp; ML bands. එයාලට නිල් සහ UV එක band එකක් විදියටත් කොල- කහ එක band එකක් විදියටත් තමයි පිහිටලා තියෙන්නෙ.</p>
+<p>කුරුල්ලන්‍ට bands 4ක response එකක් ලැබෙන්නෙ. ඒ වගේම එයාලගෙ ඇස් වල මේ color bands filter කරගන්න උවමනා අනුවර්තන වෙලා තියෙන්වා. ඉදුණු පලතුරු එහෙම හරියටම අඳුනගන්න පුලුවන් විදියට තමයි මේ band response curves පිහිටලා තියෙන්නෙ.</p>
+<p>Colour bands ගැන කතාකරද්දි අමතක කරන්න බැරි සතෙක් තමයි Mantis shrimp. මෙයාගෙ ඇහැ තුල photoreceptors වර්ග 12-16 ප්‍රමාණයක් තියෙනවා වගේම මේ bands හරිම narrow. මෙයා ඉන්න පරිසර පද්ධති වල වෙන පුංචි පුංචි වෙනස්කම් අඳුනගන්න මේ හින්දා මෙයාට හැකි වෙලා තියෙනවා.</p>
+<p>මේ වෙද්දි අපි පාවිච්චි කරන Multispectral Imaging, Hyperspectral Imaging වගේ තාක්ෂණයන් භාවිතා කරනවා අපේ පියවි ඇහැට බලාගන්න බැරි දේවල් සංවේදනය කරගන්න. හැබැයි ඒ සංකල්ප සොබාදහම විසින් මේ විදියට නිර්මාණය කරලා තියෙනවා හරි අපූරුවට අපිට බලාගන්න පුලුවන් මේවා එක්ක.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="T3B0aWNzJTJDUGh5c2ljcyUyQ0Jpb2xvZ3k=" data-listing-date-sort="1770418800000" data-listing-file-modified-sort="1770458610288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="629">
-<a href="./posts/human_vision/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/human_vision/color_physics.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-🌈 අපි අවට ලෝකය වර්ණවත් වන්නේ කොහොමද?
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3B0aWNz'); return false;">Optics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGh5c2ljcw=='); return false;">Physics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmlvbG9neQ=='); return false;">Biology</div>
-
-</div>
-<div class="card-text listing-description delink">
-කලින් ලිපි දෙකේදිම මම කතා කරේ කොහොමද වස්තුවකට වර්ණයක් හම්බෙන්නෙ කියලා. එහෙනම් අද බලමු සරලව කොහොමද අපේ ඇහැ වර්ණ අඳුනගන්නෙ කියලා. ඒ වගේම එකම වස්තුව එකම වර්ණ වලින්ද හැමෝටම…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 7, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="T3B0aWNzJTJDUGh5c2ljcyUyQ05hdHVyZSUyQ0V4cGVyaW1lbnRz" data-listing-date-sort="1769122800000" data-listing-file-modified-sort="1769176098254" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="349">
-<a href="./posts/colours_experiment/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/colours_experiment/color_ex.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-🌈 අපි අවට ලෝකය වර්ණවත් වෙන හැටි සරල පරීක්ෂණයකින් දකිමු
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3B0aWNz'); return false;">Optics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGh5c2ljcw=='); return false;">Physics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TmF0dXJl'); return false;">Nature</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXhwZXJpbWVudHM='); return false;">Experiments</div>
-
-</div>
-<div class="card-text listing-description delink">
-විවිධ වස්තු විවිධ වර්ණ වලින් පෙනෙන්නෙ ඇයි කියලා මං පහුගිය ලිපියෙන් පැහැදිලි කරලා තියෙනවා. ඒක තේරුම්ගන්න සැලසුම් කරපු සරල පරීක්ෂණයක් ගැනයි මෙතැන් සිට ලියන්න යන්නෙ.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 23, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="T3B0aWNzJTJDUGh5c2ljcyUyQ05hdHVyZQ==" data-listing-date-sort="1768518000000" data-listing-file-modified-sort="1768656338431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="626">
-<a href="./posts/object_colours/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/object_colours/color_physics.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-🌈 අපි අවට ලෝකය වර්ණවත් වන්නේ කොහොමද?
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3B0aWNz'); return false;">Optics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGh5c2ljcw=='); return false;">Physics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TmF0dXJl'); return false;">Nature</div>
-
-</div>
-<div class="card-text listing-description delink">
-අපි අවට පරිසරය තුල විවිධාකාර වර්ණ වලින් හැඩගැන්වුනු වස්තූන් අපි දකිනවා. සමහර පෘෂ්ඨ දිලිසෙනවා. සමහර පෘෂ්ඨ එහෙම නැහැ. සමහර පෘෂ්ඨ දිහා වෙනස් දිශාවන් වලින් බලද්දි වර්ණය වෙනස්…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 16, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
