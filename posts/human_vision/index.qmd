@@ -1,5 +1,5 @@
 ---
-title: "අපි දකින ලෝකය හැමෝටම එක සමානද?"
+title: "ලෝකය හැමෝටම එක සමානද?"
 description: ""
 date: 2026-02-07
 categories: [Optics, Physics, Biology]
