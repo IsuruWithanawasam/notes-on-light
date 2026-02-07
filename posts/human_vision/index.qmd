@@ -10,7 +10,7 @@ image: color_physics.png
 
 
 ### ඇස නමැති කැමරාව 📷
-https://lookafteryoureyes.org/eye-care/how-your-eye-works/
+
 ![reference: https://lookafteryoureyes.org/eye-care/how-your-eye-works/](human.jpg)
 
 
