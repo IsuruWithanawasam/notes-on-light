@@ -59,3 +59,16 @@ Colour bands ගැන කතාකරද්දි අමතක කරන්න 
 
 
 මේ වෙද්දි අපි පාවිච්චි කරන Multispectral Imaging, Hyperspectral Imaging වගේ තාක්ෂණයන් භාවිතා කරනවා අපේ පියවි ඇහැට බලාගන්න බැරි දේවල් සංවේදනය කරගන්න. හැබැයි ඒ සංකල්ප සොබාදහම විසින් මේ විදියට නිර්මාණය කරලා තියෙනවා හරි අපූරුවට අපිට බලාගන්න පුලුවන් මේවා එක්ක. 
+
+
+### වැඩිදුර කියවීමට
+
+Emery, K. J., & Webster, M. A. (2019). Individual differences and their implications for color perception. Current Opinion in Behavioral Sciences, 30, 28–33. https://doi.org/10.1016/j.cobeha.2019.05.002
+
+Greene, M. J., Pandiyan, V. P., Sabesan, R., & Tuten, W. S. (2025). Local variations in L/M ratio influence the detection and color naming of small spots. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2025.02.19.639104
+
+Patel, R. N., Khil, V., Abdurahmonova, L., Driscoll, H., Patel, S., Pettyjohn-Robin, O., et al. (2021). Mantis shrimp identify an object by its shape rather than its color during visual recognition. Journal of Experimental Biology, 224(12). https://doi.org/10.1242/jeb.242256
+
+Pridmore, R. W. (2021). A new transformation of cone responses to opponent color responses. Attention, Perception, & Psychophysics, 83, 1797–1803. https://doi.org/10.3758/s13414-020-02216-7
+
+Wu, C. Q. (2010). A neuroanatomically-based model for human color vision. BMC Neuroscience, 11(S1). https://doi.org/10.1186/1471-2202-11-s1-p143
