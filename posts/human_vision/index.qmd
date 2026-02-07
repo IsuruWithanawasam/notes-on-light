@@ -63,12 +63,10 @@ Colour bands ගැන කතාකරද්දි අමතක කරන්න 
 
 ### වැඩිදුර කියවීමට
 
+Baden, T., & Osorio, D. (2019). Diverse cell types, circuits, and mechanisms for color vision in the vertebrate retina. Physiological Reviews, 99(4), 2135–2173. https://doi.org/10.1152/physrev.00045.2018
+
 Emery, K. J., & Webster, M. A. (2019). Individual differences and their implications for color perception. Current Opinion in Behavioral Sciences, 30, 28–33. https://doi.org/10.1016/j.cobeha.2019.05.002
 
-Greene, M. J., Pandiyan, V. P., Sabesan, R., & Tuten, W. S. (2025). Local variations in L/M ratio influence the detection and color naming of small spots. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2025.02.19.639104
+MacAdam, D. L. (1960). Theory on the receptor mechanism in color vision. Journal of the Optical Society of America, 50(10), 945–946. https://doi.org/10.1364/JOSA.50.000945
 
-Patel, R. N., Khil, V., Abdurahmonova, L., Driscoll, H., Patel, S., Pettyjohn-Robin, O., et al. (2021). Mantis shrimp identify an object by its shape rather than its color during visual recognition. Journal of Experimental Biology, 224(12). https://doi.org/10.1242/jeb.242256
-
-Pridmore, R. W. (2021). A new transformation of cone responses to opponent color responses. Attention, Perception, & Psychophysics, 83, 1797–1803. https://doi.org/10.3758/s13414-020-02216-7
-
-Wu, C. Q. (2010). A neuroanatomically-based model for human color vision. BMC Neuroscience, 11(S1). https://doi.org/10.1186/1471-2202-11-s1-p143
+Thoen, H. H., How, M. J., Chiou, T. H., & Marshall, J. (2014). A different form of color vision in mantis shrimp. Science, 343(6169), 411–413. https://doi.org/10.1126/science.1245824
