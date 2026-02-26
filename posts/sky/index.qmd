@@ -47,7 +47,9 @@ $$I = I_0 \frac{8\pi^4 N \alpha^2}{\lambda^4 R^2} (1 + \cos^2\theta)$$
 #### Particle size $\gtrsim$ wavelength 
 මෙතැනදී සිදුවෙන Scattering phenomenon එකට අපි කියනව **Mie scattering** කියලා. මේකෙ ගණිතමය මොඩලය නම් ටිකක් සංකීර්ණයි. සමස්ථයක් විදියට මේකෙදි ආලෝකය ඉදිරි දිශාවට (**forward direction**) එකට විසරණය කරනවා. 
 
-![Source: http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html](scat.png)
+::: {text-align="center"}
+![Source: http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html](scat.png){width=80%}
+:::
 
 ---
 
