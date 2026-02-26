@@ -5,6 +5,7 @@ date: 2026-02-26
 categories: [Optics, Physics, Nature]
 image: thumb.png
 ---
+![](thumb.png){width=50% fig-align="center"}
 
 කවදාවත් හිතලා තියෙනවද ඇයි අහස නිල් පාට වුනේ? වලාකුළු සුදු පාට වුනේ? හවසට අහස රතු පාට වුනේ කියලා? 
 
