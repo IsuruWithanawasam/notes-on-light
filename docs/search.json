@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "posts/sky/index.html",
+    "href": "posts/sky/index.html",
+    "title": "අහස නිල් පාට වෙන්නේ ඇයි?",
+    "section": "",
+    "text": "කවදාවත් හිතලා තියෙනවද ඇයි අහස නිල් පාට වුනේ? වලාකුළු සුදු පාට වුනේ? හවසට අහස රතු පාට වුනේ කියලා?\nඅද ලිපිය ඇතුලෙ අපි ඒකට උත්තර ටික කතාකරමු.\nඅපි දැකලා තියෙනවා සමහර මාධ්‍යයන් ඇතුලෙ පාවෙන අංශු, හරියට වාතයේ තියෙන දූවිලි, එහෙම නැත්නම් දියර කිරි වගේ දේවල්. මේක පාවෙන්නම ඕනෙ නැහැ. හැබැයි මේ මාධ්‍යයන් සමජාතීය නෑ. අපි මේ වගෙ මාධ්‍ය වලට කියනවා Turbid medium කියලා. සිංහලෙන් “බොර වුන” වගේ අදහසක් තමා එන්නෙ.\nමේ වගෙ මාධ්‍යයන් ඇතුලෙ ආලෝකය ගමන් කරද්දි හරි අපූරු වැඩක් වෙනවා. ඒ තමයි එක කෙලින් මාර්ගයක යනවා වෙනුවට හැරි හැරි ගමන් කරන එක. අපි මේකට කියනවා Light scattering (ප්‍රකීරණය) කියලා.\nමෙහෙම හැරි හැරි යන්නෙ පරාවර්තනය නිසා නෙවෙයි. මේකට හේතු වෙන්නෙ මේ විෂමජාතීය (inhomogeneous) මාධ්‍යය ආලෝකයත් එක්ක සිද්ධවෙන interaction එක."
+  },
+  {
+    "objectID": "posts/sky/index.html#අප-හමදම-දකන-දයක-එකක-අප-ම-ගන-හතල-බලම",
+    "href": "posts/sky/index.html#අප-හමදම-දකන-දයක-එකක-අප-ම-ගන-හතල-බලම",
+    "title": "අහස නිල් පාට වෙන්නේ ඇයි?",
+    "section": "0.1 අපි හැමදාම දකින දෙයක් එක්ක අපි මේ ගැන හිතල බලමු",
+    "text": "0.1 අපි හැමදාම දකින දෙයක් එක්ක අපි මේ ගැන හිතල බලමු\nපහල තියෙන්නෙ කිරි වීදුරුවක්. මං මේකට ඉහලින් පොඩි direct flasher light එකක් ගහලා තියෙනව. අපි දන්නවා මේ වගේ වෙලාවට ආලෝකය යන්නෙ එක සරල රේඛීය මාර්ගයක කියලා. එහෙම නම් මේක කොහොමද මගෙ කැමරාවට පෙනුනෙ. ඉහලින් ආලෝකය එල්ල කරත් වීදුරුව ඇතුලෙ තියෙන කිරි අංශු වල වැදිලා ආලෝකය හැරුන හින්දා තමයි කිරි වීදුරුවෙන් කැමරාවට ආලෝකය ලැබිලා තියෙන්නෙ.\n\n0.1.1 මොන මොන හේතු මතද මේ ආලෝකය හැරීම බලපාන්නෙ\nමේකට මේ මාධ්‍යයෙ සහ පැමිණෙන ආලෝකයෙ තියෙන ගුනාංග ගොඩක් බලපානවා. * අදාල මාධ්‍යය තුල වර්තනාංකය * මේකෙ ඇතුලෙ තියෙන අර විශමජාතීය අංශු ප්‍රමාණය * ඒ අංශු වල අරය * පැමිණෙන ආලෝකය wavelength එක තමයි ප්‍රධාන කරුණු.\n\n\n0.1.2 අංශු වල ප්‍රමාණය (size එක) මොන විදියටද මේකට බලපාන්නෙ?\nමෙතනදි අපි මේ size එක Compare කරන්න ඕනෙ ආලෝකයෙ wavelength එක එක්ක.\n\n0.1.2.1 Particle size &lt;&lt; wavelength:\nමේ අවතාවට කියන්නෙ Rayleigh scattering කියලා. අපිට rayleigh scattering වල ගණිතමය සම්බන්ධය පහල තියෙන equation එකෙන් පෙන්නන්න පුලුවන්.\n\\[I \\propto \\frac{1}{\\lambda^4}\\]\nසාමාන්‍යයෙන් අපිට කියන්න පුලුවන් මෙතන ආලෝකයේ විසිරීම හැම දිශාවකටම තියෙනවා කියලා. හැබැයි විසිරෙන දිශාවත් එක්කත් මෙතන සම්බන්ධයක් තියෙනව. මෙතනදි බැලුවම අඩු wavelength (\\(\\lambda\\)) එකක් විසිරී යනවා වැඩියි. විශේෂයෙන්ම නිල් සහ දම් වගෙ වර්ණ. ඒ වගෙම රතු වල විසිරීම අඩුයි.\n\n\n0.1.2.2 Particle size &gt;~ wavelength\nමෙකට අපි කියනව Mie scattering කියලා. මේකෙ ගණිතමය මොඩලය නම් ටිකක් සංකීර්ණයි. සමස්ථයක් විදියට මේකෙදි ආලෝකය ඉදිරි දිශාවට (forward direction) එකට විසරණය කරනවා."
+  },
+  {
     "objectID": "posts/human_vision/index.html",
     "href": "posts/human_vision/index.html",
     "title": "ලෝකය හැමෝටම එක සමානද?",
@@ -11,7 +25,7 @@
     "href": "index.html",
     "title": "Notes on Light: A Journey Through Optics",
     "section": "",
-    "text": "A scientific journal dedicated to the study of optics and light.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nලෝකය හැමෝටම එක සමානද?\n\n\n\nOptics\n\nPhysics\n\nBiology\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌈 අපි අවට ලෝකය වර්ණවත් වෙන හැටි සරල පරීක්ෂණයකින් දකිමු\n\n\n\nOptics\n\nPhysics\n\nNature\n\nExperiments\n\n\n\n\n\n\n\n\n\n\nJan 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌈 අපි අවට ලෝකය වර්ණවත් වන්නේ කොහොමද?\n\n\n\nOptics\n\nPhysics\n\nNature\n\n\n\n\n\n\n\n\n\n\nJan 16, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "A scientific journal dedicated to the study of optics and light.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nඅහස නිල් පාට වෙන්නේ ඇයි?\n\n\n\nOptics\n\nPhysics\n\nNature\n\n\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nලෝකය හැමෝටම එක සමානද?\n\n\n\nOptics\n\nPhysics\n\nBiology\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌈 අපි අවට ලෝකය වර්ණවත් වෙන හැටි සරල පරීක්ෂණයකින් දකිමු\n\n\n\nOptics\n\nPhysics\n\nNature\n\nExperiments\n\n\n\n\n\n\n\n\n\n\nJan 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌈 අපි අවට ලෝකය වර්ණවත් වන්නේ කොහොමද?\n\n\n\nOptics\n\nPhysics\n\nNature\n\n\n\n\n\n\n\n\n\n\nJan 16, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
