@@ -34,13 +34,12 @@ image: thumb.png
 
 $$x = \frac{\pi D}{\lambda}$$
 
-මෙහි:
-* **$\lambda$ (Lambda):** Wavelength එක
-* **$D$:** Particle එකේ විශ්කම්භය (Diameter)
+**$\lambda$ (Lambda):** Wavelength එක 
+**$D$:** Particle එකේ විශ්කම්භය (Diameter)
 
 
-* **$x \ll 1$ (1 ට වඩා ඉතා කුඩායි):** කියන්නෙ, Wavelength එකට වඩා particle එකේ size එක ඉතා කුඩායි කියන එක.
-* **$x \approx 1$ (1 ට ආසන්නයි):** කියන්නෙ, Wavelength එකත් particle size එකත් එක කිට්ටුව කියන එක.
+* **$x \ll 1$:** කියන්නෙ, Wavelength එකට වඩා particle එකේ size එක ඉතා කුඩායි කියන එක.
+* **$x \approx 1$ :** කියන්නෙ, Wavelength එකත් particle size එකත් එක කිට්ටුව කියන එක.
 
 #### x << 1: 
 මේ අවස්තාවට කියන්නෙ **Rayleigh scattering** කියලා. අපිට rayleigh scattering වල ගණිතමය සම්බන්ධය පහල තියෙන equation එකෙන් පෙන්නන්න පුලුවන්. 
