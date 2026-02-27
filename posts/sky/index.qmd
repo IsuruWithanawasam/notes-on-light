@@ -34,7 +34,7 @@ image: thumb.png
 
 $$x = \frac{\pi D}{\lambda}$$
 
-**$\lambda$ (Lambda):** Wavelength එක 
+**$\lambda$ (Lambda):** Wavelength එක , 
 **$D$:** Particle එකේ විශ්කම්භය (Diameter)
 
 
@@ -54,13 +54,13 @@ $$I = I_0 \frac{8\pi^4 N \alpha^2}{\lambda^4 R^2} (1 + \cos^2\theta)$$
 
 
 
-####  $x \gtrsim 1$:  
+####  $x \approxeq 1$:  
 මෙතැනදී සිදුවෙන Scattering phenomenon එකට අපි කියනව **Mie scattering** කියලා. මේකෙ ගණිතමය මොඩලය නම් ටිකක් සංකීර්ණයි. සමස්ථයක් විදියට මේකෙදි ආලෝකය ඉදිරි දිශාවට (**forward direction**) විසරණය කරනවා. 
 
 ![Source: http://hyperphysics.phy-astr.gsu.edu/hbase/atmos/blusky.html](scat.png){width=80%}
 
 
-** සරලවම කිව්වොත් මාධ්‍යයෙ තියෙන අංශු wavelength එකට වඩා ඉතාම කුඩායි නම් පැමිණෙන ආලෝකය විසිරෙනවා වැඩියි. අංශු wavelength එකට ආසන්න අගයක තියෙනවා නම් විසිරීම අඩුයි **
+සරලවම කිව්වොත් මාධ්‍යයෙ තියෙන අංශු wavelength එකට වඩා ඉතාම කුඩායි නම් පැමිණෙන ආලෝකය විසිරෙනවා වැඩියි. අංශු wavelength එකට ආසන්න අගයක තියෙනවා නම් විසිරීම අඩුයි.
 
 ---
 
