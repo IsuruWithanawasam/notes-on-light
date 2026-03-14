@@ -126,7 +126,7 @@ $$NDWI = \frac{(Green - NIR)}{(Green + NIR)}$$
 ![](roi.png){width=50% fig-align="center"}
 
 ![](nvdi_jamb.png){width=100% fig-align="center"}
-![](nvdi_jamb2.png){width=100% fig-align="center"}
+![](nvdi_jamb3.png){width=100% fig-align="center"}
 
 ---
 
