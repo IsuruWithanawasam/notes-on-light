@@ -79,7 +79,7 @@ Hyperspectral imaging කියලා කියන්නෙ multi spectral imagi
 
 Multi spectral imaging ගැන කතාකරද්දි අපිට vegetation indices ගැන කතා නොකර බෑ.
 
-### NDVI (Normalized Difference Vegetation Index)
+**NDVI (Normalized Difference Vegetation Index)**
 
 NDVI ශාක වල vegetation එක ගැන කතා කරද්දි ඉතා බහුලව පාවිච්චි වෙන index එකක්. මෙතනදි අපිට පේනවා මෙයාගෙ අපි පාවිච්චි කරන්නෙ red & near IR bands වල values වල comparison එකක්.
 
