@@ -71,6 +71,8 @@ Hyperspectral imaging කියලා කියන්නෙ multi spectral imagi
 
 විශේෂයෙන් මතක් කරන්න ඕනෙ දේ තමයි Multispectral & hyperspectral imaging වලදි ලබාදෙන්නෙ එක එක bands වලට අදාල images ගොඩක්.
 
+![](hyp.png){width=50% fig-align="center"}
+
 ---
 
 ## Vegetation Indices
@@ -126,7 +128,7 @@ $$NDWI = \frac{(Green - NIR)}{(Green + NIR)}$$
 ![](roi.png){width=50% fig-align="center"}
 
 ![](nvdi_jamb.png){width=100% fig-align="center"}
-![](nvdi_jamb3.png){width=100% fig-align="center"}
+![](nvdi_jamb4.png){width=100% fig-align="center"}
 
 ---
 
