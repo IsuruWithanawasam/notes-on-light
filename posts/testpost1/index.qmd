@@ -1,0 +1,15 @@
+---
+title: "Test 1"
+author: "Isuru Withanawasam"
+date: "2026-07-06"
+---
+
+## Introduction
+
+Your content here.
+
+$$
+E = mc^2
+$$
+
+![Caption](your_figure.png)
