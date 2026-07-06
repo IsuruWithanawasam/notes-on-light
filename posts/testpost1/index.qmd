@@ -1,7 +1,9 @@
 ---
 title: "Test 1"
-author: "Isuru Withanawasam"
-date: "2026-07-06"
+description: ""
+date: 2026-01-16
+categories: [Optics, Physics, Nature]
+image: color_physics.png
 ---
 
 ## Introduction

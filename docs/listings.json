@@ -2,12 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/testpost1/index.html",
       "/posts/NVDI/index.html",
       "/posts/sky/index.html",
       "/posts/human_vision/index.html",
       "/posts/colours_experiment/index.html",
-      "/posts/object_colours/index.html"
+      "/posts/object_colours/index.html",
+      "/posts/testpost1/index.html"
     ]
   }
 ]
