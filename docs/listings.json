@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/testpost1/index.html",
       "/posts/NVDI/index.html",
       "/posts/sky/index.html",
       "/posts/human_vision/index.html",

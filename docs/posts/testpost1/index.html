@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-01-23">
+<meta name="author" content="Isuru Withanawasam">
+<meta name="dcterms.date" content="2026-07-06">
 
-<title>🌈 අපි අවට ලෝකය වර්ණවත් වෙන හැටි සරල පරීක්ෂණයකින් දකිමු – Notes on Light</title>
+<title>Test 1 – Notes on Light</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -72,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -127,12 +157,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#පහගය-ලපයන-සරලව" id="toc-පහගය-ලපයන-සරලව" class="nav-link active" data-scroll-target="#පහගය-ලපයන-සරලව"><span class="header-section-number">0.1</span> ✍️පහුගිය ලිපියෙන් සරලව…</a></li>
-  <li><a href="#පරකෂණ-ඇටවම" id="toc-පරකෂණ-ඇටවම" class="nav-link" data-scroll-target="#පරකෂණ-ඇටවම"><span class="header-section-number">0.2</span> ⚙️පරීක්ෂණ ඇටවුම…</a></li>
-  <li><a href="#කහමද-දන-අප-ම-පරකෂණය-කරනන" id="toc-කහමද-දන-අප-ම-පරකෂණය-කරනන" class="nav-link" data-scroll-target="#කහමද-දන-අප-ම-පරකෂණය-කරනන"><span class="header-section-number">0.3</span> ❓කොහොමද දැන් අපි මේ පරීක්ෂණය කරන්නෙ?</a></li>
-  <li><a href="#අපට-ලබන-නරකෂණ-මන-වගද" id="toc-අපට-ලබන-නරකෂණ-මන-වගද" class="nav-link" data-scroll-target="#අපට-ලබන-නරකෂණ-මන-වගද"><span class="header-section-number">0.4</span> 👀අපිට ලැබෙන නිරීක්ෂණ මොන වගේද?</a></li>
-  <li><a href="#ඇය-ඒ" id="toc-ඇය-ඒ" class="nav-link" data-scroll-target="#ඇය-ඒ"><span class="header-section-number">0.5</span> ❓ඇයි ඒ???</a></li>
-  <li><a href="#අනක-බලබ-දලවදදත-මහමද" id="toc-අනක-බලබ-දලවදදත-මහමද" class="nav-link" data-scroll-target="#අනක-බලබ-දලවදදත-මහමද"><span class="header-section-number">0.6</span> 🤔අනික් බල්බ දල්වද්දිත් මෙහෙමද??</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
   </ul>
 </nav>
     </div>
@@ -141,24 +166,24 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🌈 අපි අවට ලෝකය වර්ණවත් වෙන හැටි සරල පරීක්ෂණයකින් දකිමු</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Optics</div>
-    <div class="quarto-category">Physics</div>
-    <div class="quarto-category">Nature</div>
-    <div class="quarto-category">Experiments</div>
-  </div>
-  </div>
+<h1 class="title">Test 1</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Isuru Withanawasam </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 23, 2026</p>
+      <p class="date">July 6, 2026</p>
     </div>
   </div>
   
@@ -170,34 +195,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>විවිධ වස්තු විවිධ වර්ණ වලින් පෙනෙන්නෙ ඇයි කියලා මං පහුගිය ලිපියෙන් පැහැදිලි කරලා තියෙනවා. ඒක තේරුම්ගන්න සැලසුම් කරපු සරල පරීක්ෂණයක් ගැනයි මෙතැන් සිට ලියන්න යන්නෙ.</p>
-<section id="පහගය-ලපයන-සරලව" class="level3" data-number="0.1">
-<h3 data-number="0.1" class="anchored" data-anchor-id="පහගය-ලපයන-සරලව"><span class="header-section-number">0.1</span> ✍️පහුගිය ලිපියෙන් සරලව…</h3>
-<p>වස්තුවකට වර්ණයක් ලැබෙන්නේ, ඒ වස්තුව මගින් අවශෝෂණය නොකර, අපේ ඇහැ වෙතට පරාවර්තනය කරන විවිධ වර්ණ වලට අදාල ෆෝටෝන වලින්. වස්තුවක් රතුපාටයි කියන්නෙ ඒ වස්තුව සුදු ආලෝකයේ තියෙන රතු වර්ණයට අදාල ෆෝටෝන ටික හැරෙන්න ඉතිරි ෆෝටෝන අවශෝෂණය කරගන්නවා කියන එක.</p>
-</section>
-<section id="පරකෂණ-ඇටවම" class="level3" data-number="0.2">
-<h3 data-number="0.2" class="anchored" data-anchor-id="පරකෂණ-ඇටවම"><span class="header-section-number">0.2</span> ⚙️පරීක්ෂණ ඇටවුම…</h3>
-<p>පහල රූපයෙ පේනවා වගෙ විනිවිද පෙනෙන භාජනයක් ඇතුලට රතු, කොළ, නිල් වර්ණ තුනෙන් පබළු තුනක් දාගන්නවා. ඒ වගෙම ඒ වර්ණ තුනෙන්ම LED බල්බ තුනක් අදාල භාජනයෙ ඇතුල් පැත්තෙ සවි කරගන්න ඕනෙ. මේ LED තුන වෙන වෙනම දල්වන්න පුලුවන් විදියට විදුලි සැපයුම සම්බන්ධ කරගත්තා නම් හරි.</p>
-<p><img src="c_bf.png" class="img-fluid"></p>
-</section>
-<section id="කහමද-දන-අප-ම-පරකෂණය-කරනන" class="level3" data-number="0.3">
-<h3 data-number="0.3" class="anchored" data-anchor-id="කහමද-දන-අප-ම-පරකෂණය-කරනන"><span class="header-section-number">0.3</span> ❓කොහොමද දැන් අපි මේ පරීක්ෂණය කරන්නෙ?</h3>
-<p>නිවැරදි නිරීක්ෂණ ලබාගන්න නම් අඳුරු කාමරයක මේ ක්‍රියාකාරකම කරන්න ඕනෙ. මුලින්ම රතු පාට LED බල්බය විතරක් දල්වනවා. දැන් අපි බලන්න ඕනෙ පහල තියෙන පබලු තුනේ වර්ණ අපිට කොහොමද පේන්නෙ කියලා. මොකක්ද ලැබෙන නිරීක්ෂණය?? මේ විදියට අපිට වෙන වෙනම බල්බ දල්වල ලැබෙන නිරීක්ෂණ ටික සටහන් කරගත්තා නම් කලින් ලිපියෙන් පැහැදිලි කරගත්තු සම්බන්ධතාවය හොඳින් පැහැදිලිකරගන්න පුලුවන්.</p>
-</section>
-<section id="අපට-ලබන-නරකෂණ-මන-වගද" class="level3" data-number="0.4">
-<h3 data-number="0.4" class="anchored" data-anchor-id="අපට-ලබන-නරකෂණ-මන-වගද"><span class="header-section-number">0.4</span> 👀අපිට ලැබෙන නිරීක්ෂණ මොන වගේද?</h3>
-<p>මුලින්ම රතු පාට LED බල්බය දැල්වුවම අපිට රතු පාට පබළුව රතු පාටටත්, නිල් සහ කොළ පාට පබළු කළු පාටටත් බලාගන්න පුලුවන්.</p>
-<p><img src="c_af.png" class="img-fluid"></p>
-</section>
-<section id="ඇය-ඒ" class="level3" data-number="0.5">
-<h3 data-number="0.5" class="anchored" data-anchor-id="ඇය-ඒ"><span class="header-section-number">0.5</span> ❓ඇයි ඒ???</h3>
-<p>කලින් පැහැදිලි කරපු වගේ, රතු පාට පබලුව කරන්නෙ ඒකට ලැබෙන ආලෝකයේ රතු හැර අනික් වර්ණ අවශෝෂණය කරගැනීම. ඒ වගේම නිල් සහ කොළ පබළු ඒ වර්ණ දෙක (නිල්, කොළ) හැරෙන්න අනිත් වර්ණ අවශෝෂණය නොකර, පරාවර්තනය කරනවා. දැන් තියෙන්නෙ රතු ආලෝක ප්‍රභවයක් නිසා, ඒ රතු ආලෝකය කොල සහ නිල් පබළු වලින් සම්පූර්ණයෙන්ම අවශෝෂණය කරගන්නවා. එතකොට ඒ පබළු වලින් අපේ ඇහැට ආලෝකයක් නැවත ලැබෙන්නෙ නැහැ. ඒ නිසා තමයි අපිට ඒ පබළු දෙක කලු පාටින් පේන්නෙ. (මෙතනදි අපි ගන්න වස්තුව බොහොම සුමට පෘෂ්ඨයක් සහිත එකක් වුනොත් අපිට නිල් කොළ පබලු පේන්නෙ අඳුරු පාටකින්.. හැබැයි රතු පාටට හුරු පොඩි දිලිසීමක් එන්න පුලුවන්. ඒ specular reflection වලින්. හැබැයි ඒක ඉතාම පොඩි ප්‍රමාණයක්)</p>
-</section>
-<section id="අනක-බලබ-දලවදදත-මහමද" class="level3" data-number="0.6">
-<h3 data-number="0.6" class="anchored" data-anchor-id="අනක-බලබ-දලවදදත-මහමද"><span class="header-section-number">0.6</span> 🤔අනික් බල්බ දල්වද්දිත් මෙහෙමද??</h3>
-<p>ඔව්. අනික් බල්බ දල්වද්දිත් ඒ දල්වන බල්බයට අදාලව මේ වගෙ නිරීක්ෂණයක් දකින්න පුලුවන්. සම්පූර්ණ පරීක්ෂණයෙ ප්‍රතිපල ටික අපිට පහල දැක්වෙන විදියට නිරූපණය කරන්න පුලුවන්.</p>
-<p><img src="tab1.png" class="img-fluid"></p>
-<p>සමහර වෙලාවට අපි දකින දේවල් ඇතුලෙ නොදකින දේවල් හැංගිලා තියෙන්නෙ පුලුවන්. ඒ වගෙ අලුත් කාරණාවක් එක්ක ඊලඟ ලිපියෙන් හම්බෙමු 👊</p>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p>Your content here.</p>
+<p><span class="math display">\[
+E = mc^2
+\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="your_figure.png" class="img-fluid figure-img"></p>
+<figcaption>Caption</figcaption>
+</figure>
+</div>
 
 
 </section>
